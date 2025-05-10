@@ -1,0 +1,78 @@
+name: note_detection
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.10.5+9
+  image_picker: ^1.0.7
+  image_cropper: ^5.0.1
+  provider: ^6.1.1
+  path_provider: ^2.1.2
+  tflite_flutter: ^0.9.5
+  cupertino_icons: ^1.0.8
+  image: ^3.3.0
+  tflite_flutter_helper_plus: ^0.0.2
+  smooth_page_indicator: ^1.1.0
+  flutter_markdown: ^0.7.1
+  animations: ^2.0.11
+  lottie: ^3.1.2
+  google_fonts: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.11.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/model.tflite
+    - assets/models/labels.txt
+    - assets/docs/chatbot.md
+    - assets/lottie/analyse.json
+    - assets/lottie/Genuine.json
+    - assets/lottie/Counterfeit.json
+    - assets/lottie/loading2.json
+    - assets/lottie/chooseFromGallery.json
+    - assets/lottie/money.json
+    - assets/lottie/snapPhoto.json
+    - assets/lottie/getStarted.json
+    - assets/lottie/ChooseMultipleTransparent.json
+    - assets/images/Error.png
+    - assets/images/ClassificationResult.png
+    - assets/images/Getstarted.png
+    - assets/images/PickFromGallery.png
+    - assets/images/Guide.png
+    - assets/images/aim.png
+    - assets/images/bank_emoji.png
+    - assets/images/cam.png
+    - assets/images/camera_emoji.png
+    - assets/images/camera_icon.png
+    - assets/images/character_one.png
+    - assets/images/character_two.png
+    - assets/images/complete_emoji.png
+    - assets/images/confidence.png
+    - assets/images/file_emoji.png
+    - assets/images/flag.png
+    - assets/images/folder_icon.png
+    - assets/images/gallery.png
+    - assets/images/help_icon.png
+    - assets/images/logo.png
+    - assets/images/multipleGallery.png
+    - assets/images/results.png
+    - assets/images/rounded_button.png
+    - assets/images/scan_group.png
+    - assets/images/splash.png
